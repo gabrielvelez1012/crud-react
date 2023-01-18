@@ -1,0 +1,181 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(234, 227, 227);
+ 
+}
+
+.App{
+  width: 100%;
+}
+
+
+.listUsers{
+  width: 100%;
+
+}
+
+.sumary{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+}
+
+.sumary button{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(40, 39, 39);
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 3px 3px gray;
+}
+
+.sumary button:hover{
+  cursor: pointer;
+  background-color: rgb(25, 117, 87);
+}
+
+.card-container{
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+span{
+  color: rgb(34, 27, 231);
+}
+
+.card{
+  background-color: white;
+  border-radius: 10px;
+  width: 270px;
+  height: 250px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 3px 3px grey; ;
+}
+h4{
+  width: 100%;
+  text-align: center;
+  padding: 0 0 1rem 0;
+  border-bottom: 2px solid;
+}
+
+
+.form{
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 3px 3px gray;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.btn-update{
+  background-color: rgb(11, 85, 59);
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 250px;
+}
+.btn-close{
+  background-color: rgb(239, 19, 19);
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.btn-close:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.form input{
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  height: 20px;
+  text-align: center;
+  margin: .5rem;
+  width: 250px;
+  box-shadow: 0 0 3px 3px gray;
+}
+/*
+.card{
+  border: 1px solid;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
